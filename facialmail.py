@@ -16,13 +16,13 @@ def sendname(sname):
         s.starttls() 
     
         # Authentication 
-        s.login("icrdet19@gmail.com", "zimrogroup") 
+        s.login("icrdet19@gmail.com", "< mail password>") 
     
         # message to be sent 
         message = sname
     
         # sending the mail 
-        s.sendmail("icrdet19@gmail.com", "mistilmr@gmail.com", message) 
+        s.sendmail("icrdet19@gmail.com", "<to mailid>", message) 
 
         # terminating the session 
         print("sent")
